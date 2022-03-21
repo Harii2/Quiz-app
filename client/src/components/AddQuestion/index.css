@@ -1,0 +1,27 @@
+.add-question-bg{
+    background-color: antiquewhite;
+    width:100vw
+}
+
+.text-area{
+    border-radius: 10px;
+}
+
+.suuces-msg{
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.input-add-question{
+    width:300px;
+    border-radius: 5px;
+    border: 0px solid black;
+    height:30px
+}
+
+@media screen and (max-width:796px){
+    .text-area{
+        width:80%
+    }
+}

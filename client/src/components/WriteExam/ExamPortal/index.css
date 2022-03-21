@@ -1,0 +1,101 @@
+
+.two-inputs-div{
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    margin-bottom: 20px;
+}
+
+.questions-div{
+    color: black;
+   
+}
+
+.green-bg{
+    background-color: green;
+    color: white;
+     padding: 5px;
+     border-radius: 3px;
+     width:120px;
+     margin-top: 10px;
+     text-align: center;
+}
+
+.red-bg{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    width:120px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.options-btn{
+    background-color: white;
+    border:0px solid white;
+    padding:4px
+}
+
+.questions-and-no-questions-div{
+    display: flex;
+    justify-content:space-around ;
+}
+
+.btn-question{
+    background-color:aqua;
+    border:1px solid aqua;
+    margin:5px;
+    border-radius: 3px;
+    padding:4px;
+    width:40px;
+    height: 40px;
+}
+
+.next-btn{
+    background-color: blueviolet;
+    border:1px solid blueviolet;
+    padding: 5px;
+    color:white;
+    border-radius:5px
+}
+
+.red-bg{
+    background-color: red;
+    color: white;
+}
+
+
+.green-bg{
+    background-color: rgb(33, 134, 33); 
+    color:white
+}
+
+.questions-submit-btn{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    padding:10px;
+    border-radius: 6px;
+    color:white
+}
+
+.timer-btn-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.no-questions-div{
+    display: flex;
+    flex-wrap: nowrap;
+    width:300px;
+    border:1px solid aqua;
+}
+
+@media(max-width:576px){
+    .questions-and-no-questions-div{
+        flex-direction: column;
+    }
+}

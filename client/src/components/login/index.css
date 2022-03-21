@@ -1,0 +1,23 @@
+@media all and (min-width: 370px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+
+    .login-forn-container{
+      width:30%px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+  }
+
+  .heading-log-in{
+    font-size:20px;
+    padding-bottom: 20px;
+    color:blueviolet
+  }
